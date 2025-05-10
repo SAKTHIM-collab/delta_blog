@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ ! "$(id -nG)" =~ "g_admin" ]; then
+if ! id -nG | grep -qw "g_admin"; then
     echo "This command is only for admin" >&2
     exit 1
 fi
