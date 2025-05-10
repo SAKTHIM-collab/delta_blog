@@ -1,0 +1,5 @@
+users:
+  - username: SAK
+    role: reader
+  - username: sakthi
+    role: author

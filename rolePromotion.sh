@@ -1,4 +1,4 @@
-
+#!/bin/bash
 if [ "$#" -eq 0 ]; then
     echo "Usage:"
     echo "For users: $0 request"

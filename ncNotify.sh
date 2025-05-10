@@ -1,4 +1,4 @@
-
+#!/bin/bash
 if [ "$#" -lt 1 ]; then
     echo "Usage:"
     echo "For authors: $0 notify <message>"

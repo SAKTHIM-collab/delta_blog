@@ -1,4 +1,4 @@
-
+#!/bin/bash
 if [ ! "$(id -nG)" =~ "g_admin" ]; then
     echo "This command is only for admin" >&2
     exit 1

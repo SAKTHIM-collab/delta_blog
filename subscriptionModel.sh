@@ -1,4 +1,4 @@
-
+#!/bin/bash
 if [ "$#" -lt 1 ]; then
     echo "Usage:"
     echo "For users: $0 subscribe <author>"

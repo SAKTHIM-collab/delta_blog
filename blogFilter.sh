@@ -1,4 +1,4 @@
-
+#!/bin/bash
 if [ ! "$(id -nG)" =~ "g_mod" ]; then
     echo "This command is only for moderators" >&2
     exit 1

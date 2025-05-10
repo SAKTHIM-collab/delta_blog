@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 if [ ! "$(id -nG)" =~ "g_author" ]; then
     echo "This command is only for authors" >&2
